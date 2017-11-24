@@ -2,7 +2,7 @@
 
 namespace Mpdf;
 
-class SizeConverterTest extends \PHPUnit_Framework_TestCase
+class SizeConverterTest extends \Mpdf\TestCase
 {
 
 	/**

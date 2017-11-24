@@ -2,7 +2,7 @@
 
 namespace Mpdf\Conversion;
 
-class DecToCjkTest extends \PHPUnit_Framework_TestCase
+class DecToCjkTest extends \Mpdf\TestCase
 {
 
 	/**

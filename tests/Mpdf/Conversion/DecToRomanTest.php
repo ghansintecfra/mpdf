@@ -2,7 +2,7 @@
 
 namespace Mpdf\Conversion;
 
-class DecToRomanTest extends \PHPUnit_Framework_TestCase
+class DecToRomanTest extends \Mpdf\TestCase
 {
 
 	/**

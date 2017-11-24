@@ -4,7 +4,7 @@ namespace Mpdf\Pdf;
 
 use Mockery;
 
-class ProtectionTest extends \PHPUnit_Framework_TestCase
+class ProtectionTest extends \Mpdf\TestCase
 {
 
 	/**

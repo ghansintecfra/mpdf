@@ -4,7 +4,7 @@ namespace Mpdf\Fonts;
 
 use Mockery;
 
-class MetricsGeneratorTest extends \PHPUnit_Framework_TestCase
+class MetricsGeneratorTest extends \Mpdf\TestCase
 {
 
 	/**

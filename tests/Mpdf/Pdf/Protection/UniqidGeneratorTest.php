@@ -2,7 +2,7 @@
 
 namespace Mpdf\Pdf\Protection;
 
-class UniqidGeneratorTest extends \PHPUnit_Framework_TestCase
+class UniqidGeneratorTest extends \Mpdf\TestCase
 {
 
 	public function testGenerate()

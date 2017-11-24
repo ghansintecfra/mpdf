@@ -2,7 +2,7 @@
 
 namespace Mpdf;
 
-class WriteHtmlTest extends \PHPUnit_Framework_TestCase
+class WriteHtmlTest extends \Mpdf\TestCase
 {
 
 	private $mpdf;

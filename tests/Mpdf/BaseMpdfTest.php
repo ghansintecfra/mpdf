@@ -4,7 +4,7 @@ namespace Mpdf;
 
 use Mpdf\Mpdf;
 
-abstract class BaseMpdfTest extends \PHPUnit_Framework_TestCase
+abstract class BaseMpdfTest extends \Mpdf\TestCase
 {
 
 	/**

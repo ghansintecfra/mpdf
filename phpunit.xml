@@ -1,7 +1,8 @@
 <phpunit
 	bootstrap="tests/bootstrap.php"
 	colors="true"
-	backupGlobals="false">
+	backupGlobals="false"
+	beStrictAboutTestsThatDoNotTestAnything="false">
 
 	<testsuites>
 		<testsuite>
@@ -16,7 +17,7 @@
 	</filter>
 
 	<listeners>
-		<listener class="\Mockery\Adapter\Phpunit\TestListener"></listener>
+		<listener class="Mockery\Adapter\Phpunit\TestListener" />
 	</listeners>
 
 </phpunit>

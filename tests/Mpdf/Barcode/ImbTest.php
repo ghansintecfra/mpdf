@@ -5,7 +5,7 @@ namespace Mpdf\Barcode;
 /**
  * @group unit
  */
-class ImbTest extends \PHPUnit_Framework_TestCase
+class ImbTest extends \Mpdf\TestCase
 {
 
 	public function testInit()

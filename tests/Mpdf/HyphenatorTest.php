@@ -4,7 +4,7 @@ namespace Mpdf;
 
 use Mockery;
 
-class HyphenatorTest extends \PHPUnit_Framework_TestCase
+class HyphenatorTest extends \Mpdf\TestCase
 {
 
 	/**

@@ -2,7 +2,7 @@
 
 namespace Mpdf;
 
-class AddFontTest extends \PHPUnit_Framework_TestCase
+class AddFontTest extends \Mpdf\TestCase
 {
 
 	/**

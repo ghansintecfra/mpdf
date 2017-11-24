@@ -5,7 +5,7 @@ namespace Mpdf\Color;
 use Mockery;
 use Mpdf\Mpdf;
 
-class ColorConverterTest extends \PHPUnit_Framework_TestCase
+class ColorConverterTest extends \Mpdf\TestCase
 {
 
 	/**

@@ -20,7 +20,7 @@ use ReflectionClass;
  *
  * @group mpdi
  */
-class FpdiTest extends \PHPUnit_Framework_TestCase
+class FpdiTest extends \Mpdf\TestCase
 {
 
 	/**

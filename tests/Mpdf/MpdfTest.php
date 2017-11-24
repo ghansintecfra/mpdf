@@ -2,7 +2,7 @@
 
 namespace Mpdf;
 
-class MpdfTest extends \PHPUnit_Framework_TestCase
+class MpdfTest extends \Mpdf\TestCase
 {
 
 	/**

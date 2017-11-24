@@ -8,7 +8,7 @@ use Mpdf\Mpdf;
 /**
  * @group unit
  */
-class QrCodeTest extends \PHPUnit_Framework_TestCase
+class QrCodeTest extends \Mpdf\TestCase
 {
 
 	/**

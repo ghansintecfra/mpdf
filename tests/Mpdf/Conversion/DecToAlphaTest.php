@@ -2,7 +2,7 @@
 
 namespace Mpdf\Conversion;
 
-class DecToAlphaTest extends \PHPUnit_Framework_TestCase
+class DecToAlphaTest extends \Mpdf\TestCase
 {
 
 	/**

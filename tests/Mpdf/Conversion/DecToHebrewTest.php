@@ -2,7 +2,7 @@
 
 namespace Mpdf\Conversion;
 
-class DecToHebrewTest extends \PHPUnit_Framework_TestCase
+class DecToHebrewTest extends \Mpdf\TestCase
 {
 
 	/**

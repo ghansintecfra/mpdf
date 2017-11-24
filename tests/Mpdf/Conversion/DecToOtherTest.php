@@ -5,7 +5,7 @@ namespace Mpdf\Conversion;
 use Mockery;
 use Mpdf\Mpdf;
 
-class DecToOtherTest extends \PHPUnit_Framework_TestCase
+class DecToOtherTest extends \Mpdf\TestCase
 {
 
 	/**
