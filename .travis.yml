@@ -19,6 +19,8 @@ matrix:
       php: 7.1
     - env: COVERAGE=1
       php: 7.1
+    - env: STAN=1
+      php: 7.1
 
   allow_failures:
     - php: nightly
@@ -31,6 +33,8 @@ script:
   - |
     if [[ "$LINT" == "1" ]]; then
       ./vendor/bin/phpcs -v --report-width=160 --standard=ruleset.xml --severity=1 --warning-severity=0 --extensions=php src utils tests
+    elif [[ "$STAN" == "1" ]]; then
+      ./vendor/bin/phpstan analyse -l 4 src/
     elif [[ "$COVERAGE" == "1" ]]; then
       vendor/bin/phpunit --coverage-text
     else
