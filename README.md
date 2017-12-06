@@ -94,6 +94,8 @@ For general questions or troubleshooting please use the [mpdf tag](https://stack
 Contributing
 ============
 
+For development, PHP `~7.0` is required
+
 Please read before submitting issues and pull requests the [CONTRIBUTING.md](https://github.com/mpdf/mpdf/blob/development/.github/CONTRIBUTING.md) file.
 
 Unit Testing
