@@ -29712,5 +29712,9 @@ class Mpdf implements \Psr\Log\LoggerAwareInterface
 	{
 		return $this->fontDescriptor;
 	}
+	
+	public function setWaterMarkVisible($visible){
+	    $this->showWatermarkText=$visible;
+	}
 
 }
