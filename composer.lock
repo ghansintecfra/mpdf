@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "565dc5071915692cf30adc87fd96a62e",
+    "content-hash": "a2aee5eed157f48b294bfb6f808dbe3b",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -75,27 +75,27 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "5.8.x-dev",
+            "version": "5.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "3e3a9a654adbf798e05491a5dbf90112df1effde"
+                "reference": "80c09a2401f84a8cdb72548ed81bb9fe59d7bc5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/3e3a9a654adbf798e05491a5dbf90112df1effde",
-                "reference": "3e3a9a654adbf798e05491a5dbf90112df1effde",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/80c09a2401f84a8cdb72548ed81bb9fe59d7bc5e",
+                "reference": "80c09a2401f84a8cdb72548ed81bb9fe59d7bc5e",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
-                "psr/container": "^1.0",
-                "psr/simple-cache": "^1.0"
+                "php": ">=7.0",
+                "psr/container": "~1.0",
+                "psr/simple-cache": "~1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.8-dev"
+                    "dev-master": "5.5-dev"
                 }
             },
             "autoload": {
@@ -115,45 +115,41 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "https://laravel.com",
-            "time": "2019-02-18T18:37:54+00:00"
+            "time": "2019-02-11T13:51:03+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "5.8.x-dev",
+            "version": "5.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "013cfab5d44c530b56d70cc9ccb891c8b25ebbce"
+                "reference": "a09e05f7f4810c1973abdda6a824cf63b6e23d84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/013cfab5d44c530b56d70cc9ccb891c8b25ebbce",
-                "reference": "013cfab5d44c530b56d70cc9ccb891c8b25ebbce",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/a09e05f7f4810c1973abdda6a824cf63b6e23d84",
+                "reference": "a09e05f7f4810c1973abdda6a824cf63b6e23d84",
                 "shasum": ""
             },
             "require": {
-                "doctrine/inflector": "^1.1",
-                "ext-json": "*",
+                "doctrine/inflector": "~1.1",
                 "ext-mbstring": "*",
-                "illuminate/contracts": "5.8.*",
-                "nesbot/carbon": "^1.26.3 || ^2.0",
-                "php": "^7.1.3"
+                "illuminate/contracts": "5.5.*",
+                "nesbot/carbon": "^1.26.0",
+                "php": ">=7.0"
             },
-            "conflict": {
+            "replace": {
                 "tightenco/collect": "<5.5.33"
             },
             "suggest": {
-                "illuminate/filesystem": "Required to use the composer class (5.8.*).",
-                "moontoast/math": "Required to use ordered UUIDs (^1.1).",
-                "ramsey/uuid": "Required to use Str::uuid() (^3.7).",
-                "symfony/process": "Required to use the composer class (^4.2).",
-                "symfony/var-dumper": "Required to use the dd function (^4.2).",
-                "vlucas/phpdotenv": "Required to use the env helper (^3.3)."
+                "illuminate/filesystem": "Required to use the composer class (5.5.*).",
+                "symfony/process": "Required to use the composer class (~3.3).",
+                "symfony/var-dumper": "Required to use the dd function (~3.3)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.8-dev"
+                    "dev-master": "5.5-dev"
                 }
             },
             "autoload": {
@@ -176,34 +172,32 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2019-02-27T14:00:44+00:00"
+            "time": "2019-02-11T13:51:03+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.14.1",
+            "version": "1.36.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "e68f869575bd703276be8d4264799cd3cce28107"
+                "reference": "cd324b98bc30290f233dd0e75e6ce49f7ab2a6c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e68f869575bd703276be8d4264799cd3cce28107",
-                "reference": "e68f869575bd703276be8d4264799cd3cce28107",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/cd324b98bc30290f233dd0e75e6ce49f7ab2a6c9",
+                "reference": "cd324b98bc30290f233dd0e75e6ce49f7ab2a6c9",
                 "shasum": ""
             },
             "require": {
-                "ext-json": "*",
-                "php": "^7.1.8 || ^8.0",
-                "symfony/translation": "^3.4 || ^4.0"
+                "php": ">=5.3.9",
+                "symfony/translation": "~2.6 || ~3.0 || ~4.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
-                "kylekatarnls/multi-tester": "^0.1",
-                "phpmd/phpmd": "^2.6",
-                "phpstan/phpstan": "^0.10.8",
-                "phpunit/phpunit": "^7.5 || ^8.0",
-                "squizlabs/php_codesniffer": "^3.4"
+                "phpunit/phpunit": "^4.8.35 || ^5.7"
+            },
+            "suggest": {
+                "friendsofphp/php-cs-fixer": "Needed for the `composer phpcs` command. Allow to automatically fix code style.",
+                "phpstan/phpstan": "Needed for the `composer phpstan` command. Allow to detect potential errors."
             },
             "type": "library",
             "extra": {
@@ -215,7 +209,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Carbon\\": "src/Carbon/"
+                    "": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -236,7 +230,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-02-27T13:59:59+00:00"
+            "time": "2018-12-28T10:07:33+00:00"
         },
         {
             "name": "paragonie/random_compat",
